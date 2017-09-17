@@ -28,3 +28,7 @@ test-suite test
   build-depends:       base >= 4.7 && < 4.8
                      , tasty
                      , tasty-hunit
+                     , network >= 2.5
+                     , bytestring >= 0.10
+                     , dns >= 1.4
+                     , utf8-string
